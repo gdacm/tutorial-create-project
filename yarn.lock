@@ -187,30 +187,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gdacm/base-types@npm:^0.1.9":
-  version: 0.1.9
-  resolution: "@gdacm/base-types@npm:0.1.9"
-  checksum: 10c0/2628ae4f1c0a0a5cbd350ced7f5c603f48f48b188f4fb1c10d20fe313ff1c3933694d83e704a890d881f565f23323f5314ff8ef9448c0d4acd1288c2ade5b3b7
+"@gdacm/base-types@npm:^0.1.11":
+  version: 0.1.11
+  resolution: "@gdacm/base-types@npm:0.1.11"
+  checksum: 10c0/bf7d0acc6ea78311e7f34e9729a599f5969817bfb0dae8613556781e2c3c9f7c6319c1d2c6ace30828cd9b81ebc0b2b0e3e4b855ac6b5776758ea2bc84c93f2f
   languageName: node
   linkType: hard
 
-"@gdacm/dashboard-manager@npm:^0.1.9":
-  version: 0.1.9
-  resolution: "@gdacm/dashboard-manager@npm:0.1.9"
+"@gdacm/dashboard-manager@npm:^0.1.11":
+  version: 0.1.11
+  resolution: "@gdacm/dashboard-manager@npm:0.1.11"
   dependencies:
-    "@gdacm/base-types": "npm:^0.1.9"
-    "@gdacm/grafana-items": "npm:^0.1.9"
+    "@gdacm/base-types": "npm:^0.1.11"
+    "@gdacm/grafana-items": "npm:^0.1.11"
     js-yaml: "npm:^5.2.3"
-  checksum: 10c0/47f035c8caef831556cd2a3a329bbe29b31e0b883952cc222b752d0462dd171d5c7c2ae5e536a66e4f3641b6cad7a5c2a281a4ea9e3dbec94304cb347cd46b17
+  checksum: 10c0/4f3af76df8d6a826d1bcb8fdc3a4c3ddbc8cf98c445a7ab3cea8f649f56b31d2b3e6d181f6d0a17ba2c68a136e7faac1ea3d8583840c8c35938de80ab4fd06bf
   languageName: node
   linkType: hard
 
-"@gdacm/grafana-items@npm:^0.1.9":
-  version: 0.1.9
-  resolution: "@gdacm/grafana-items@npm:0.1.9"
+"@gdacm/grafana-items@npm:^0.1.11":
+  version: 0.1.11
+  resolution: "@gdacm/grafana-items@npm:0.1.11"
   dependencies:
-    "@gdacm/base-types": "npm:^0.1.9"
-  checksum: 10c0/68c70570024fa8461b0430029cf32be7a5803fcda6552c5f3439abbc83f6fdc677eafc2a3b6349015c605c839911ff2ed3b1ca589147bc7cccea1ee8f6779337
+    "@gdacm/base-types": "npm:^0.1.11"
+  checksum: 10c0/7d3571bfd69ecae4750453c51dc3ee7616b4e4dcdc8aabbf31bcc09f9b0f526d93c8d58922fc2651193cb621545faac35177c4f44bf7c90a229443b37e096a41
   languageName: node
   linkType: hard
 
@@ -522,9 +522,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gbu@workspace:."
   dependencies:
-    "@gdacm/base-types": "npm:^0.1.9"
-    "@gdacm/dashboard-manager": "npm:^0.1.9"
-    "@gdacm/grafana-items": "npm:^0.1.9"
+    "@gdacm/base-types": "npm:^0.1.11"
+    "@gdacm/dashboard-manager": "npm:^0.1.11"
+    "@gdacm/grafana-items": "npm:^0.1.11"
     tsx: "npm:^4.23.13"
     typescript: "npm:^7.0.2"
   languageName: unknown
