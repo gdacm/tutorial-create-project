@@ -9,9 +9,7 @@
     "start": "tsx src/index.ts"
   },
   "dependencies": {
-    "@gdacm/base-types": "^0.1.11",
-    "@gdacm/dashboard-manager": "^0.1.11",
-    "@gdacm/grafana-items": "^0.1.11"
+    "@gdacm/core": "^0.1.14"
   },
   "devDependencies": {
     "tsx": "^4.23.13",

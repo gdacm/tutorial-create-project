@@ -1,6 +1,6 @@
-import { DashboardMetaOptions } from "@gdacm/base-types";
-import { DashboardInfo } from "@gdacm/dashboard-manager";
-import { Dashboard, GrafanaItem, TextPanel } from "@gdacm/grafana-items";
+import { DashboardMetaOptions } from "@gdacm/core";
+import { DashboardInfo } from "@gdacm/core";
+import { Dashboard, GrafanaItem, TextPanel } from "@gdacm/core";
 
 const getDashboard = async (uid: string, metaOptions: DashboardMetaOptions): Promise<GrafanaItem> => {
     return new Dashboard(metaOptions)
