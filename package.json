@@ -9,7 +9,7 @@
     "start": "tsx src/index.ts"
   },
   "dependencies": {
-    "@gdacm/core": "^0.1.14"
+    "@gdacm/core": "^0.1.15"
   },
   "devDependencies": {
     "tsx": "^4.23.13",
